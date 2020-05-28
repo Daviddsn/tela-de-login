@@ -40,7 +40,7 @@ body{
     overflow: hidden;
 }
 header{
-    background: #CCC url(bg.jpg) center;
+    background-image: url("bg.jpg") center;
     background-size: cover;
     padding:  6%;
     position: relative;
