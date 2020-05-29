@@ -36,7 +36,7 @@ body{
     height: 90%;
     max-width: 690px;
     max-height: 600px;
-    padding-bottom: 10px;
+    padding-bottom: 2%;
     border-radius: 25px;
     overflow: hidden;
 }
@@ -45,7 +45,7 @@ header{
     background-position: center;
     -webkit-background-size: cover;
     background-size: cover;
-    padding:  6%;
+    padding:  5%;
     position: relative;
     z-index: 1;
 
@@ -125,7 +125,7 @@ button{
     display: block;
     color:#FFF;
     font-weight: 400;
-    clear: both;
+    /* clear: both; */
     cursor: pointer;
 }
 button:hover{
@@ -153,6 +153,5 @@ a:hover{
 @media only screen and (max-width:360px){
     .finish{
        width: 100%;
-        
     }
 }
