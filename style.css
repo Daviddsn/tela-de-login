@@ -40,7 +40,9 @@ body{
     overflow: hidden;
 }
 header{
-    background: #CCC url(/bg.jpg) center;
+    background-image: url("bg.jpg");
+    background-position: center;
+    -webkit-background-size: cover;
     background-size: cover;
     padding:  6%;
     position: relative;
@@ -118,6 +120,7 @@ button{
     background-color: chartreuse;
     width: 180px;
     height: 48px;
+    margin-bottom: 10px;
     border-radius: 3em;
     display: block;
     color:#FFF;
