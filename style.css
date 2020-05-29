@@ -36,7 +36,6 @@ body{
     height: 90%;
     max-width: 690px;
     max-height: 600px;
-    padding-bottom: 2%;
     border-radius: 25px;
     overflow: hidden;
 }
@@ -147,6 +146,9 @@ a:hover{
         display: grid;
         grid-template-columns: 1fr 1fr;
         font-size: 0.75em;
+    }
+    header{
+    	padding: 3%;
     }
 
 }
