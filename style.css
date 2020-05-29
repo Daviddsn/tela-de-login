@@ -40,7 +40,7 @@ body{
     overflow: hidden;
 }
 header{
-    background-image: url("bg.jpg") center;
+    background: #CCC url(/bg.jpg) center;
     background-size: cover;
     padding:  6%;
     position: relative;
@@ -102,12 +102,13 @@ input::placeholder{
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
-.finish ul:first-child{
+.finish ul li input{
     cursor: pointer;
 }
 
 .finish ul li label{
     font-size: 0.9em;
+    cursor: pointer;
 }
 form a{
     float: right;
@@ -136,4 +137,19 @@ input:focus::placeholder{
 
 a:hover{
     color: chartreuse;
+}
+
+@media only screen and (max-width:450px){
+    .finish ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        font-size: 0.75em;
+    }
+
+}
+@media only screen and (max-width:360px){
+    .finish{
+       width: 100%;
+        
+    }
 }
